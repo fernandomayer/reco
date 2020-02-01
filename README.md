@@ -1,15 +1,15 @@
-# CE083
+# RECO
 
 [![Build Status](https://travis-ci.org/fernandomayer/ce083.svg?branch=master)](https://travis-ci.org/fernandomayer/ce083)
 
-## CE083 - Estatística Computacional I
+## RECO - R para pesquisa científica
 
-Repositório da disciplina CE083 - Estatística Computacional I,
-ministrada na UFPR, para o curso de Estatística.
+Repositório da disciplina "R para pesquisa científica" ministrada no PPG
+em Ecologia e Conservação da UFPR.
 
 Este repositório contém todo o material de aula e os arquivos
 necessários para gerar a página da disciplina, disponível em:
-http://leg.ufpr.br/~fernandomayer/aulas/ce083/
+http://leg.ufpr.br/~fernandomayer/aulas/reco
 
 ### Para gerar o site
 
