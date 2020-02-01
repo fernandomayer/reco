@@ -1,0 +1,63 @@
+---
+title: "R para pesquisa científica"
+output:
+  html_document:
+    toc: false
+---
+
+```{r setup, include=FALSE}
+source("setup_knitr.R")
+```
+
+[![Build Status](https://travis-ci.org/fernandomayer/ce083.svg?branch=master)](https://travis-ci.org/fernandomayer/ce083)
+
+<!-- <div class="alert alert-danger" role="alert"> -->
+<!-- </div> -->
+
+# Detalhes da oferta da disciplina
+
+- **Curso:** PPG Ecologia e Conservação
+- **Período:** fevereiro de 2020
+- **Professor Responsável:** [Fernando de Pol Mayer][], ([LEG][]:
+  Laboratório de Estatística e Geoinformação)
+- **Horários e Locais:** Segunda a sexta, 14:00 - 18:00h, sala 421,
+      Departamento de Botânica
+
+
+# Descrição
+
+Estudos recentes mostram que cientistas passam cerca de 30% de seu tempo
+escrevendo códigos. No entanto, mais de 90% deles são primariamente
+auto-didatas, e portanto carecem de exposição à princípios básicos de
+programação e boas práticas de computação científica, o que facilitaria
+o desenvolvimento de suas pesquisas. Esse curso tem a intenção de
+preencher essa lacuna, por meio da exposição de conceitos fundamentais
+de programação na linguagem R. Também serão demonstradas algumas
+práticas em computação científica, com a intenção de otimizar o tempo
+despendido em programação. Além disso, algumas ferramentas disponíveis
+no R serão utilizadas com a finalidade de tornar uma pesquisa
+reproduzível.
+
+O público alvo do curso são alunos de pós-graduação que já utilizam o R
+(em qualquer nível) em suas pesquisas, mas desejam aprofundar seu
+conhecimento nos fundamentos do R e utilizar suas ferramentas para
+pesquisa reproduzível. Estudantes sem nenhum conhecimento no R são bem
+vindos, mas poderão ter alguma dificuldade no acompanhamento.
+
+# Ementa
+
+Funções e argumentos. Objetos, classes e métodos. Indexação e seleção
+condicional. Importação e exportação de dados. Programação: estruturas
+de controle e repetição; criação de funções; família de funções apply.
+Boas práticas para computação científica. Pesquisa reproduzível.
+Linguagens de marcação: LaTeX e Markdown. Documentos dinâmicos com knitr
+e Rmarkdown. Personalização de documentos dinâmicos.
+
+
+
+<!-- links -->
+
+[Fernando de Pol Mayer]: http://leg.ufpr.br/~fernandomayer
+[LEG]: http://www.leg.ufpr.br
+[Resolução 62/16 - CEPE]: http://www.est.ufpr.br/calendario/cepe6216.pdf
+[DINF]: http://www.inf.ufpr.br/dinf/

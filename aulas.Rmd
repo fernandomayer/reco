@@ -1,0 +1,155 @@
+---
+title: "Histórico das aulas do curso"
+output:
+  html_document:
+    toc: false
+---
+
+```{r setup, include=FALSE}
+source("setup_knitr.R")
+```
+
+- **03/02**:
+- **04/02**:
+- **05/02**:
+- **06/02**:
+- **07/02**:
+- **08/02**:
+
+<!-- - **01/08**: Apresentação da disciplina. -->
+<!--   Ler [Uso dos sistemas do C3SL](c3sl-sistemas.html). -->
+<!-- - **03/08**: Sem aula - recepção aos calouros. -->
+<!-- - **08/08**: Introdução ao uso do Linux. Ver comandos básicos nos -->
+<!--   [slides](http://fernandomayer.github.io/linux-intro). -->
+<!-- - **10/08**: Comandos e exercícios do Linux. -->
+<!--   [Slides](http://fernandomayer.github.io/linux-intro). -->
+<!-- - **15/08**: Computação científica e interação com o R. Ver -->
+<!--   [material](computacao-cientifica.html). -->
+<!-- - **17/08**: Funções, argumentos e busca de ajuda no R. Ver -->
+<!--   [material](objetos-classes.html). -->
+<!-- - **22/08**: Criando funções, definição de objetos. Classes de objetos. -->
+<!--   Vetores e sequências de números. Ver [material](objetos-classes.html). -->
+<!-- - **24/08**: **Não haverá aula**. Fazer os exercícios de [comandos -->
+<!--   básicos e classes de objetos](exercicios/ex_objetos.pdf). -->
+<!-- - **29/08**: Regra da reciclagem. Atributos de vetores. Outras classes: -->
+<!--   caracter, lógico, fator. Valores perdidos e especiais. Ver -->
+<!--   [material](objetos-classes.html). -->
+<!-- - **31/08**: Matrizes, listas e data frames. Nomes como atributos. Ver -->
+<!--   [material](objetos-classes.html). -->
+<!-- - **05/09**: Indexação e substituição em vetores. Ver -->
+<!--   [material](indexacao_e_selecao.html). -->
+<!-- - **07/09**: Feriado. -->
+<!-- - **12/09**: Indexação de matrizes, listas e data frames. Seleção -->
+<!--   condicional em vetores. Ver [material](indexacao_e_selecao.html). -->
+<!-- - **14/09**: A função `which()`. Seleção condicional em data frames. Ver -->
+<!--   [material](indexacao_e_selecao.html). -->
+<!-- - **19/09**: **Prova 1**. -->
+<!-- - **21/09**: Entrada de dados. Entrada via teclado. Criando arquivos de -->
+<!--   texto (`.csv`) a partir de planilhas eletrônicas. Importação de dados -->
+<!--   em arquivos de texto com `read.table()`. Importação de arquivos do -->
+<!--   Excel (binários) com `read.xls()` do pacote `gdata`. Ver -->
+<!--   [material](entrada-dados.html). -->
+<!-- - **26/09**: Saída de dados. Exportando para arquivos de texto com -->
+<!--   `write.table()`. Exportando para formatos textual e binário. Ver -->
+<!--   [material](entrada-dados.html). -->
+<!-- - **28/09**: Análise exploratória de dados. Conhecendo um conjunto de -->
+<!--   dados. Tabelas de frequência e gráficos para variáveis qualitativas. -->
+<!--   Ver [material](analise-exploratoria.html). -->
+<!-- - **03/10**: Não haverá aula devido ao [SIEPE](http://www.siepe.ufpr.br). -->
+<!-- - **05/10**: Tabelas de frequência e gráficos para variáveis -->
+<!--   quantitativas. Ver [material](analise-exploratoria.html). -->
+<!-- - **10/10**: Quantis, boxplots e subsets dentro de gráficos. Ver -->
+<!--   [material](analise-exploratoria.html) e -->
+<!--   [script](scripts/script_gapminder.R). -->
+<!-- - **12/10**: Feriado. -->
+<!-- - **17/10**: Resolvendo problemas de vetores com `NA`s. Gráficos usando -->
+<!--   o pacote **lattice**. A família de funções `*apply()`: `apply()`, -->
+<!--   `sapply()`, `lapply()`, `tapply()`, `aggregate()`. Uso avançado com a -->
+<!--   função `ddply()` do pacote **plyr**. Ver -->
+<!--   [material](analise-exploratoria.html) e -->
+<!--   [script](scripts/script_gapminder.R). -->
+<!-- - **19/10**: Exercícios de análise exploratória de dados feito em sala. -->
+<!--   Ver [script](exercicios/ex_AED2.R) e [gabarito](exercicios/ex_AED2_GB.R). -->
+<!-- - **24/10**: Programação. Estrutura de repetição `for()`. Estrutura de -->
+<!--   seleção `if()`. Funções vetorizadas: `apply()` e `ifelse()`. Ver -->
+<!--   [material](programacao.html). -->
+<!-- - **26/10**: Distribuições de probabilidade: Normal e binomial. Ver -->
+<!--   [material](probabilidade.html) e [script](scripts/probabilidade.R). -->
+<!-- - **31/10**: Não haverá aula. -->
+<!-- - **02/11**: Feriado. -->
+<!-- - **07/11**: **Prova 2**. -->
+<!-- - **09/11**: Resolução da prova 2. -->
+<!--   [Gabarito](scripts/script_P2_2017-11-07_GB.R). -->
+<!--   [Dados](dados/dados_atum.csv). -->
+<!-- - **14/11**: Introdução ao uso do $\LaTeX$. Ver -->
+<!--   [slides](misc/Introducao_ao_Latex_ESALQ-USP.pdf). Documento `.tex` -->
+<!--   criado em aula: [aula_latex.tex](misc/aula_latex.tex). Usar ShareLaTeX -->
+<!--   do C3SL https://sharelatex.c3sl.ufpr.br ou o próprio RStudio. -->
+<!-- - **16/11**: Criando tabelas no $\LaTeX$. Equações matemáticas. -->
+<!--   Referências cruzadas. Referências bibliográficas (usar arquivo -->
+<!--   [referencias.bib](misc/referencias.bib)). Ver -->
+<!--   [slides](misc/Introducao_ao_Latex_ESALQ-USP.pdf). -->
+<!-- - **21/11**: Documentos dinâmicos com **knitr** (arquivo `.Rnw`) e -->
+<!--   **rmarkdown** (arquivo `.Rmd`). -->
+<!--     - Instalar os pacotes do R (`knitr`, `xtable`, `rmarkdown`): -->
+<!--       - `install.packages(c("knitr", "xtable", "rmarkdown"))` -->
+<!--     - Arquivos (compilar todos eles no RStudio): -->
+<!--       - [aula_latex.tex](misc/aula_latex.tex): arquivo LaTeX puro -->
+<!--       (não dinâmico). -->
+<!--       - [aula_latex_tex2.Rnw](misc/aula_latex_tex2.Rnw): arquivo -->
+<!--       LaTeX com *chunks* (blocos de código) do R (documento -->
+<!--       dinâmico). -->
+<!--       - [aula_rmarkdown.Rmd](misc/aula_rmarkdown.Rmd): arquivo -->
+<!--       escrito em Markdown com *chunks* do R (dinâmico). -->
+<!--     - Material: -->
+<!--       - [Literate programming](http://cursos.leg.ufpr.br/prr/capLitProg.html) -->
+<!--       - [Markdown com Pandoc](http://cursos.leg.ufpr.br/prr/capMarkdown.html) -->
+<!--       - [Documentos dinâmicos no R](http://cursos.leg.ufpr.br/prr/capDocDin.html) -->
+<!--       - Site do [knitr](https://yihui.name/knitr/) e [opções de -->
+<!--         *chunks*](https://yihui.name/knitr/options/) para documentos -->
+<!--         `.Rnw` e `.Rmd`. -->
+<!--       - Site do [R Markdown](http://rmarkdown.rstudio.com/). Veja todos -->
+<!--         os [formatos](http://rmarkdown.rstudio.com/formats.html) -->
+<!--         disponíveis. -->
+<!-- - **23/11**: Diferentes documentos com -->
+<!--   [Rmarkdown](http://rmarkdown.rstudio.com). -->
+<!--     - Arquivos: -->
+<!--       - [exemplo_simples.Rmd](misc/exemplo_simples.Rmd) -->
+<!--       - [exemplo_reg.Rmd](misc/exemplo_reg.Rmd) -->
+<!--     - Arquivo e material sobre inferência e regressão: -->
+<!--       - [inferencia_regressao.Rmd](misc/inferencia_regressao.Rmd) -->
+<!-- - **28/11**: Inferência (intervalo de confiança e teste de hipótese para -->
+<!--   uma amostra) e regressão. Ver -->
+<!--   [inferencia_regressao_GB.Rmd](misc/inferencia_regressao_GB.Rmd). -->
+<!-- - **30/11**: **Prova 3**. [Gabarito](misc/ce083_P3_2017-2_GB.Rmd). -->
+<!-- - **14/12**: **Exame final**. [Exame](misc/ce083_EXAME_GB.Rmd) do ano -->
+<!--   anterior. -->
+
+<!-- ## Exercícios -->
+
+<!-- - [Exercícios de comandos básicos e classes de -->
+<!--   objetos](exercicios/ex_objetos.pdf). -->
+<!--   [Gabarito](exercicios/ex_objetos_GABARITO.R) (script). -->
+<!-- - [Resolução](scripts/objetos-classes-exercicios.R) dos exercícios da -->
+<!--   página [Funções, objetos e classes](objetos-classes.html). -->
+<!-- - [Resolução](scripts/indexacao_e_selecao-exercicios.R) dos exercícios -->
+<!--   da página [Indexação e seleção condicional](indexacao_e_selecao.html). -->
+<!-- - [Resolução](scripts/entrada-dados-exercicios.R) dos exercícios -->
+<!--   da página [Entrada e saída de dados](entrada-dados.html). -->
+<!-- - [Resolução](scripts/analise-exploratoria-exercicios.R) dos exercícios -->
+<!--   da página [Análise exploratória de dados](analise-exploratoria.html). -->
+<!-- - Exercício de análise exploratória 1: avaliação de alguns itens de -->
+<!--   diversos carros. Resolver seguindo o [script](exercicios/ex_AED1.R), e -->
+<!--   usando estes -->
+<!--   [dados](http://leg.ufpr.br/~fernandomayer/data/aval_carros_nota.txt). -->
+<!--   [Gabarito](exercicios/ex_AED1_GB.R) (script). -->
+<!-- - Exercício de análise exploratória 2: preços de aluguel de apartamentos -->
+<!--   e casas na cidade de Munique (Alemanha). Resolver seguindo o -->
+<!--   [script](exercicios/ex_AED2.R), e usando estes -->
+<!--   [dados](http://leg.ufpr.br/~fernandomayer/data/dados_aluguel.csv). -->
+<!--   [Gabarito](exercicios/ex_AED2_GB.R) (script). -->
+
+
+<!-- ## Notas -->
+
+<!-- As notas estão disponíveis [nesta página](notas.html). -->
