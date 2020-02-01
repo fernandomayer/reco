@@ -1,8 +1,8 @@
 ---
-title: "Computação científica e interação com R"
+title: "Computação científica com R"
 output:
   html_document:
-    code_folding: show
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -14,6 +14,8 @@ source("setup_knitr.R")
 O que significa este ícone?
 
 <img src="img/excelcsvgrey.png" width="400px" />
+
+<br>
 
 - É um documento do Microsoft Excel?
 - É um arquivo de **texto pleno**, separado por vírgulas (CSV *comma
@@ -43,74 +45,62 @@ O que deve acontecer?
 - Escrever código ainda tem a vantagem de deixar registrado tudo o que
   foi feito
 
-# Escrevendo código
-
-Aprender a interagir com o computador através de uma linguagem de
-programação, coloca o usuário na sua posição original de poder!
-
-<img src="img/power.gif" width="400px" />
-
 Uma linguagem de programação nos permite interagir não só com outros
 *softwares*, mas também com o nosso *hardware*
 
 <img src="img/script-hardware.png" width="800px" />
 
-<!-- # Software livre -->
+# Boas práticas para a computação científica
 
-<!-- ## Software Livre -->
+Cientistas passam cada vez mais tempo construindo e utilizando
+*software*. No entanto, a maioria nunca foi ensinada como fazer isso de
+maneira eficiente. Como resultado, muitos desconhecem as ferramentas e
+práticas que os fariam escrever códigos mais consistentes e fáceis de
+manter, com menor esforço.
 
-<!-- ### O que é software livre? -->
+Estudos recentes tem mostrado que cientistas passam cerca de 30% de seu
+tempo escrevendo códigos. No entanto, mais de 90% deles são
+primariamente auto-didatas, e portanto carecem de exposição à boas
+práticas de desenvolvimento de *software* como: escrever códigos de
+fácil manutenção, usar um *sistema de controle de versões*, rastreadores
+de *bugs*, testes unitários, e automação de tarefas.
 
-<!-- - Software que pode ser utilizado, estudado e modificado sem -->
-<!--     restrições -->
-<!-- - Pode ser copiado e redistribuido (modificado ou não) -->
-<!-- - A redistribuição tem uma única restrição: assegurar que os -->
-<!--     receptores tenham a mesma liberdade -->
-<!-- - Para isso é necessário que os desenvolvedores (ou modificadores) -->
-<!--     disponibilizem o **código fonte**! -->
-<!-- - Não confundir software **livre** com software **grátis** -->
-<!-- - Livre como em “liberdade de expressão”, não grátis como “cerveja -->
-<!--   grátis” -->
+Para promover, encorajar, e padronizar a reproducibilidade de
+investigações científicas, algumas práticas podem ser adotadas. De
+maneira específica, podemos listar oito práticas consideradas essenciais
+para que a reproducibilidade seja eficiente:
 
-<!-- ## Software Livre -->
+1. Escreva programas para humanos, não para computadores
+    a. Crie nomes consistentes, distintos e que possuam significado
+    b. A formatação e estilo de código deve ser consistente
+2. Deixe o computador fazer o trabalho
+    a. Crie funções para fazer tarefas repetitivas
+    b. Use uma ferramenta de "construção" (`make` ou
+    `rmarkdown::render()`) para automatizar *workflows*
+3. Faça alterações incrementais
+    a. Trabalhe em pequenos passos e frequentemente revise o que foi
+    feito
+    b, Use um sistema controlador de versões
+4. Não repita você mesmo (ou outros)
+    a. Faça o código modulável ao invés de copiar e colar
+    b. Re-utilize código ao invés de reescrevê-lo
+5. Prepare-se para erros
+    a. Use uma plataforma de testes independente
+    b. Transforme *bugs* (ou **resultados negativos**) em estudos de
+    caso
+6. Otimize código apenas depois que ele funcionar
+    a. Primeiro a ideia, depois a otimização
+    b. Escreva de maneira mais simples possível desde que não perca a
+    eficiência
+7. Documente a ideia e o propósito, não a mecânica
+    a. Descreva motivos e razões, não implementações
+    b. De preferência, documente o processo com códigos *embutidos* em
+    texto
+8. Colabore
+    a. Use "programação em pares"
+    b. Use um sistema de rastreamento de *bugs* e *issues*
 
-<!-- ### Um software só é considerado livre quando é possível ter as 4 liberdades -->
-
-<!-- 0. Liberdade para usar o programa para qualquer propósito -->
-<!-- 1. Liberdade para estudar como o programa funciona, e modificá-lo para -->
-<!--     sua necessidade -->
-<!-- 2. Liberdade para redistribuir cópias (e ajudar o seu vizinho) -->
-<!-- 3. Liberdade para aprimorar o programa, e redistribuí-lo para que todos -->
-<!--     se beneficiem -->
-
-<!-- ## Software Livre -->
-
-<!-- - Os principais motivos para user software livre: -->
-<!-- 	- Garantir que sabemos (ou temos como saber) o que o software está -->
-<!-- 	  fazendo -->
-<!-- 	- Garantir que sabemos aonde estão nossos dados, e o que o software -->
-<!--       faz com eles -->
-
-<!-- - A importância disso aparece cada vez mais na academia, indústria e -->
-<!--   governo: -->
-<!-- 	- [http://www.softwarelivre.gov.br](http://www.softwarelivre.gov.br) -->
-<!-- 	- [http://www.softwarepublico.gov.br](http://www.softwarepublico.gov.br) -->
-<!--     - [https://www.serpro.gov.br](https://www.serpro.gov.br) -->
-
-# Data Science? Estatística?
-
-- [The data science Venn diagram][DSVD]
-
-![Diagrama de Venn para Ciência de Dados](img/Data_Science_VD.png)
-
-- Conhecimento de matemática e estatística: é o que você está fazendo
-  aqui
-- Habilidade hacker:
-    - Saber programar (aqui vamos saber usar o R)
-    - Saber responder perguntas sozinho.
-    -  Saber buscar respostas
-- Experiência substancial: depende da área dos dados, da interação com o
-    pesquisador, ou de buscar o conhecimento
+(*Baseada em Wilson et al, 2014*).
 
 # Editores de texto
 
@@ -125,83 +115,16 @@ Características de um bom editor:
 - **Numeração de linhas**
 - **Auto completar comandos**
 
-# Editores para o R
+### Editores para o R
 
-## Windows
-
-- Interface padrão: pouco recomendado
+- Interface padrão
+- Rstudio
+- Emacs + ESS
 - Tinn-R
-
-## Linux
-
 - Vim-R-plugin
 - Gedit-R-plugin
 
-## Todas as plataformas
-
-- Rstudio: recomendado para iniciantes
-- Emacs + ESS: altamente recomendado
-
-# R
-
-## O que é o R
-
-Um dialeto do S.
-
-> *"The statistical software should help, by supporting each step from
-> user to programmer, with as few intrusive barriers as possible."*
-
-> *"... to turn ideas into software, quickly and faithfully."*
-
---- John M. Chambers
-
-- *Ambiente* estatístico para análise de dados e produção de gráficos
-- Uma completa linguagem de programação:
-	- Interpretada (contrário de compilada)
-	- Orientada a objetos:
-
-	*Tudo no R é um objeto...*
-
-- Livre distribuição (código-aberto)
-- Mais de 6000 pacotes adicionais
-
-## Histórico
-
-- 1980: Linguagem S: desenvolvida por R. Becker, J. Chambers e A. Wilks
-(AT&T Bell Laboratories)
-- 1980: Versão comercial: S-Plus (Insightful Corporation)
-- 1996: Versão livre: R desenvolvido por R. Ihaka e R. Gentleman
-(Universidade de Auckland)
-- 1997: R Development Core Team
-- Hoje: 20 desenvolvedores principais e muitos outros colaboradores em
-todo o mundo
-- Estatísticos, matemáticos e programadores
-
-<!-- ## Vantagens -->
-
-<!-- - A linguagem mais comum em *data science*, e certamente a mais -->
-<!--     utilizada em estatística hoje em dia -->
-<!-- - Permite ir rapidamente de dados brutos para gráficos para relatórios -->
-<!--    dinâmicos para aplicativos web -->
-<!-- - Software livre -->
-<!-- - Funciona em praticamente todos os sistemas operacionais: Unix (Linux, -->
-<!-- FreeBSD, \ldots), Macintosh e Windows -->
-<!-- - É o produto da cooperação entre estatísticos do mundo todo -->
-<!-- - Linguagem lógica e intuitiva -->
-<!-- - Flexibilidade nas análises estatísticas -->
-<!-- - Gráficos de alta qualidade -->
-<!-- - [R no New York Times][RNYT] -->
-
-<!-- ## Desvantagens -->
-
-<!-- - Sem interface gráfica (?) -->
-<!-- - Não há visualização direta dos dados -->
-<!-- - Curva de aprendizado longa -->
-<!-- - Pode ser lento com grandes (GB, TB, ...) bases de dados -->
-<!-- 	- Necessidade de **vetorização** -->
-
-
-## Configuração inicial
+# Uma primeira sessão
 
 ### Configurando o diretório de trabalho
 
@@ -224,25 +147,25 @@ Confira o diretório que está trabalhando com a função
 getwd()
 ```
 
-## O R como uma calculadora
+### O R como uma calculadora
 
 O símbolo `>` indica que o R está pronto para receber um comando:
-```{r, prompt=TRUE, comment=NA}
+```{r, prompt=TRUE}
 2 + 2
 ```
 O símbolo `>` muda para `+` se o comando estiver incompleto:
-```{r, prompt=TRUE, tidy=FALSE, comment=NA}
+```{r, prompt=TRUE, tidy=FALSE}
 2 *
 2
 ```
 Espaços entre os números não fazem diferença:
-```{r, prompt=TRUE, comment=NA}
+```{r, prompt=TRUE}
 2+         2
 ```
 
-## Para onde vão os resultados?
+### Para onde vão os resultados?
 
-```{r, prompt=TRUE, comment=NA}
+```{r, prompt=TRUE}
 1 + 3 + 5 + 7
 ```
 
@@ -252,7 +175,7 @@ Espaços entre os números não fazem diferença:
 - Note que o resultado é apenas mostrado na tela, nada é salvo na
   memória (por enquanto)
 
-## O editor de scripts
+### O editor de scripts
 
 - Para criar rotinas computacionais é necessário utilizar um editor
     de scripts.
@@ -268,21 +191,7 @@ Espaços entre os números não fazem diferença:
 # 2 + 2     esta linha não será executada
 ```
 
-## Operadores aritméticos
-
-Operador | Significado
--------- | -----------
-`+` | adição
-`-` | subtração
-`*` | multiplicação
-`/` | divisão
-`^` | potência
-`exp()` | exponencial
-`sqrt()` | raíz quadrada
-`factorial()` | fatorial
-`log()`; `log2()`; `log10()` | logaritmos
-
-## Ordens de execução
+### Ordens de execução
 
 As operações são realizadas sempre seguindo as prioridades:
 
@@ -290,25 +199,21 @@ As operações são realizadas sempre seguindo as prioridades:
 2. Multiplicação e divisão
 3. Adição e subtração
 
-```{r, prompt=TRUE, comment=NA}
+```{r}
 5 * 2 - 10 + 7
 5 * 2 - (10 + 7)
 5 * (2 - 10 + 7)
 5 * (2 - (10 + 7))
 ```
 
-## Exercícios
+### "Salvando" resultados
 
 1. Calcule a seguinte equação: $32 + 16^2 - 25^3$
 2. Divida o resultado por $345$
 3. Qual o resultado da expressão $\frac{e^{-2}  2^{4} - 1}{4!}$?
 4. E do logaritmo desta expressão?
 
-## "Salvando" resultados
-
-Do exercício anterior
-
-```{r, prompt=TRUE, comment=NA}
+```{r}
 x <- 32 + 16^2 - 25^3
 x
 x/345
@@ -321,16 +226,18 @@ Quando criamos uma variável (`x`, `y`), ela fica armazenada
 
 <img src="img/script-assign.png" width="400px" />
 
+**O R é uma linguagem de memória RAM**
+
 Para saber quais objetos estão criados, usamos a **função** `ls()`
 
-```{r, prompt=TRUE, comment=NA}
+```{r}
 ls()
 ```
 
 Estas variáveis ficam armazenadas no chamado *workspace* do R
 
 - O *workspace* consiste de tudo que or criado durante uma sessão do R,
-  armazenado na memória RAM
+  **armazenado na memória RAM**
 
 Para efetivamente salvar esas variáveis, podemos armazenar esse *workspace*
 do R em disco, em um arquivo chamdo `.Rdata`
@@ -349,10 +256,10 @@ do R em disco, em um arquivo chamdo `.Rdata`
 - O mais importante é salvar o **código**, assim sabemos **como**
   chegamos a determinado resultado, e podemos recriá-lo depois
 
-## Finalizando o programa
+### Finalizando o programa
 
 A qualquer momento durante uma sessão você pode usar o comando
-```{r, prompt=TRUE, eval=FALSE}
+```{r, eval=FALSE}
 save.image()
 ```
 
@@ -376,8 +283,7 @@ processo irá gerar dois arquivos:
 - `.Rhistory`: um arquivo texto que contém todos os comandos
   que foram digitados no console.
 
-
-<!-- ## Layout de código -->
+## Estilo de código
 
 <!-- ## Formatos de arquivos -->
 
