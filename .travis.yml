@@ -22,9 +22,9 @@ install:
   - "[ ! -d ~/R ] && mkdir ~/R"
   - R --version
   - Rscript -e '.libPaths(); sessionInfo()'
-  # - Rscript -e 'install.packages(c("latticeExtra", "gdata"), type = "source", repos = "http://cran-r.c3sl.ufpr.br/")'
-  - Rscript -e 'devtools::install_github("yihui/knitr")'
-  - Rscript -e 'devtools::install_github("rstudio/rmarkdown")'
+  - Rscript -e 'install.packages(c("remotes"), type = "source", repos = "http://cran-r.c3sl.ufpr.br/")'
+  - Rscript -e 'remotes::install_github("yihui/knitr")'
+  - Rscript -e 'remotes::install_github("rstudio/rmarkdown")'
 
 # build site
 
