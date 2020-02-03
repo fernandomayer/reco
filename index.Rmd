@@ -17,12 +17,13 @@ source("setup_knitr.R")
 # Detalhes da oferta da disciplina
 
 - **Curso:** PPG Ecologia e Conservação
-- **Período:** fevereiro de 2020
+- **Período:** 3 a 7 de fevereiro de 2020
 - **Professor Responsável:** [Fernando de Pol Mayer][], ([LEG][]:
   Laboratório de Estatística e Geoinformação)
 - **Horários e Locais:** Segunda a sexta, 14:00 - 18:00h, sala 421,
       Departamento de Botânica
-
+- **Avaliação**: apresentação de trabalhos (10-15 minutos) utilizando as
+  ferramentas apresentadas no curso
 
 # Descrição
 
