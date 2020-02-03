@@ -102,7 +102,7 @@ para que a reproducibilidade seja eficiente:
 
 (*Baseada em Wilson et al, 2014*).
 
-# Editores de texto
+## Editores de texto
 
 Uma característica importante de códigos de programação é que eles são
 em **texto puro**, por isso precisamos de um bom **editor de textos**
@@ -123,6 +123,63 @@ Características de um bom editor:
 - Tinn-R
 - Vim-R-plugin
 - Gedit-R-plugin
+
+## Estilo de código
+
+O estilo de código é importante pois é uma forma de padronizar a forma
+com que escrevemos o código. Essa padronização visa facilitar e otimizar
+a leitura do código por você no futuro ou por outras pessoas.
+
+Existem vários estilos de código (*coding standards*) propostos para o
+R, no entanto, nenhum deles é "oficial". Você pode se adequar a um
+estilo que achar mais apropriado, ou até mesmo criar o seu próprio
+estilo. O importante é que isso fique claro para quem for ler seu código
+posteriormente.
+
+Alguns *coding standards* para o R são:
+
+- [The tidyverse style guide](https://style.tidyverse.org) é um
+  documento compreensivo sobre formatação de códigos no R. Desenvolvido
+  por Hadley Wickham, é um dos guias mais utilizados atualmente.
+- [Google’s R Style
+  Guide](https://google.github.io/styleguide/Rguide.html) é o guia de
+  estilo do R desenvolvido pelo Google. Atualmente é apenas uma
+  modificação do *The tidyverse style guide*.
+- [R Style Guide](https://jef.works/R-style-guide/) da JEFworks, com
+  vaŕios exemplos de código.
+- [R coding
+  standards](https://cran.r-project.org/doc/manuals/r-release/R-ints.html#R-coding-standards)
+  do manual oficial do R [R
+  Internals](https://cran.r-project.org/doc/manuals/r-release/R-ints.html).
+  Não é compreensivo, mas estabelece uma padronização de código para o
+  editor Emacs.
+
+Alguns mais expositivos são:
+
+- [Writing Good R Code and Writing
+  Well](https://rviews.rstudio.com/2016/12/02/writing-good-r-code-and-writing-well/),
+  com várias dicas de Joseph Rickert.
+- [Writing better R
+  Code](https://www.bioconductor.org/help/course-materials/2013/CSAMA2013/friday/afternoon/R-programming.pdf)
+  de Laurent Gatto, explica através de exemplos a utilidade dos padrões
+  de código.
+- [R Style. An Rchaeological
+  Commentary](https://cran.r-project.org/web/packages/rockchalk/vignettes/Rstyle.pdf)
+  é um artigo de Paul E. Johnson sobre o uso histórico de diferentes
+  estilos de códigos no R e suas implicações.
+- [R Coding Style
+  Guide](https://irudnyts.github.io//r-coding-style-guide/) de Iegor
+  Rudnytskiy, com vários exemplos e dicas para o RStudio.
+- [Coding
+  style](https://csgillespie.github.io/efficientR/coding-style.html),
+  capítulo do livro [Efficient R
+  programming](https://csgillespie.github.io/efficientR/) de Colin
+  Gillespie e Robin Lovelace.
+- [Guia de Contribuição e
+  Estilo](http://leg.ufpr.br/~walmes/pacotes/labestData-vignettes/guia-contrib.html)
+  desenvolvido pelo PET Estatística, com várias indicações visuais de
+  formatação de código.
+
 
 # Uma primeira sessão
 
@@ -283,7 +340,6 @@ processo irá gerar dois arquivos:
 - `.Rhistory`: um arquivo texto que contém todos os comandos
   que foram digitados no console.
 
-## Estilo de código
 
 <!-- ## Formatos de arquivos -->
 
