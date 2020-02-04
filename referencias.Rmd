@@ -5,16 +5,20 @@ output:
     toc: false
 ---
 
-## Referências básicas
-
+## Referências sobre programação em R
 
 - Dalgaard, P.
   [Introductory statistics with R](http://www.springer.com/us/book/9780387790534).
   New York: Springer, 2008.
-- Krause, A; Olson,
-  M.
+- Gillespie, C.; Lovelace, R. [Efficient R
+programming](https://csgillespie.github.io/efficientR/). Chapman &
+Hall, 2017.
+- Krause, A; Olson, M.
   [The basics of S-Plus](http://www.springer.com/gp/book/9780387261096).
   New York: Springer, 2005.
+- Matloff, N.
+  [The art of R programming: A tour of statistical software
+  design](https://www.nostarch.com/artofr.htm).   No Starch Press, 2011.
 - Murrell, P.
   [Introduction to data technologies](https://www.crcpress.com/Introduction-to-Data-Technologies/Murrell/9781420065176).
   Boca Raton: Chapman & Hall/CRC, 2009. Disponível em
@@ -26,10 +30,40 @@ output:
 - Peng, RD.
   [Exploratory data analysis with R](https://leanpub.com/exdata).
   Leanpub, 2015. (Gratuito)
-- Ribeiro Jr., PJ.
-  [Introdução ao ambiente estatístico R](http://www.leg.ufpr.br/~paulojus/embrapa/Rembrapa/).
-  (HTML). Versão em
-  [PDF](http://www.leg.ufpr.br/~paulojus/embrapa/Rembrapa/Rembrapa.pdf).
+- Rizzo, ML.
+  [Statistical computing with R](https://www.crcpress.com/Statistical-Computing-with-R/Rizzo/9781584885450).
+  Boca Raton: Chapman & Hall/CRC, 2019.
+- Wickham, H. [Advanced R](https://adv-r.hadley.nz/). Chapman &
+  Hall, 2019.
+
+## Referências sobre pesquisa reproduzível
+
+Artigos
+
+- Powers, SM, Hampton, SE. Open science, reproducibility, and
+  transparency in ecology. [Ecological
+  Applications](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/eap.1822), 2018.
+- Wilson, G, *et al*. Best Practices for Scientific Computing. [PLoS
+Biology](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745), 2014.
+
+
+Livros
+
+- Gandrud, C. (2015). [Reproducible Research with R and R
+  Studio](https://www.crcpress.com/Reproducible-Research-with-R-and-R-Studio-Second-Edition/Gandrud/p/book/9781498715379)
+- Gentleman, R, Lang, DT. (2012). [Statistical Analyses and Reproducible
+  Research](http://www.tandfonline.com/doi/abs/10.1198/106186007X178663).
+  Journal of Computational and Graphical Statistics.
+- Kitzes, J., Turek, D., & Deniz, F. (Eds.). (2018). [The Practice of
+  Reproducible Research: Case Studies and Lessons from the
+  Data-Intensive
+  Sciences](https://www.practicereproducibleresearch.org/).
+  Oakland, CA: University of California Press
+- Peng, RD.
+  [Report writing for data science in R](https://leanpub.com/reportwriting).
+  Leanpub, 2015. (Gratuito)
+- Stodden, V., Leisch, F., Peng, RD. (2014). [Implementing Reproducible
+  Research](https://www.crcpress.com/Implementing-Reproducible-Research/Stodden-Leisch-Peng/p/book/9781466561595)
 
 ## Referências complementares
 
@@ -39,18 +73,13 @@ output:
 - Leek, J.
   [The elements of data analytic style](https://leanpub.com/datastyle).
   Leanpub, 2015. (Gratuito)
-- Matloff, N.
-  [The art of R programming: A tour of statistical software design](https://www.nostarch.com/artofr.htm).
-  No Starch Press, 2011.
 - Mello, MP; Peternelli, LA.
   [Conhecendo o R: uma visão mais que Estatística](http://www.dsr.inpe.br/~mello/Conhecendo_o_R.html).
   Viçosa: Editora UFV, 2013.
-- Peng, RD.
-  [Report writing for data science in R](https://leanpub.com/reportwriting).
-  Leanpub, 2015. (Gratuito)
-- Rizzo, ML.
-  [Statistical computing with R](https://www.crcpress.com/Statistical-Computing-with-R/Rizzo/9781584885450).
-  Boca Raton: Chapman & Hall/CRC, 2008.
+- Ribeiro Jr., PJ.
+  [Introdução ao ambiente estatístico R](http://www.leg.ufpr.br/~paulojus/embrapa/Rembrapa/).
+  (HTML). Versão em
+  [PDF](http://www.leg.ufpr.br/~paulojus/embrapa/Rembrapa/Rembrapa.pdf).
 - Teetor, P.
   [R cookbook](http://shop.oreilly.com/product/9780596809164.do).
   O'Reilly, 2011.
@@ -58,7 +87,10 @@ output:
   [Modern applied statistics with S](http://www.springer.com/us/book/9780387954578).
   New York: Springer, 2002.
 
+
 ## Referências *online*
+
+Materiais
 
 - Horton, NJ; Pruim, R; Kaplan, DT.
   [A student's guide to R](http://cran-r.c3sl.ufpr.br/doc/contrib/Horton+Pruim+Kaplan_MOSAIC-StudentGuide.pdf). 2015.
@@ -70,6 +102,14 @@ output:
   [R for beginners](http://cran-r.c3sl.ufpr.br/doc/contrib/Paradis-rdebuts_en.pdf). 2005.
 - Torgo, L.
   [Introdução à programação em R](http://cran-r.c3sl.ufpr.br/doc/contrib/Torgo-ProgrammingIntro.pdf). 2006.
+
+Links
+
+- [Reproducibility in
+  Science](http://ropensci.github.io/reproducibility-guide/). A Guide to
+  enhancing reproducibility in scientific results and writing (rOpensci)
+- [Pesquisa reproduzível com R](http://cursos.leg.ufpr.br/prr)
+- Software Carpentry [Lessons](https://software-carpentry.org/lessons/)
 
 ## Leituras complementares
 
