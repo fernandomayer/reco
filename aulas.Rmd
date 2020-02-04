@@ -24,24 +24,25 @@ source("setup_knitr.R")
 - **04/02**:
   - Funções, objetos e classes (Parte II)
     [HTML](http://cursos.leg.ufpr.br/ce089/objetos-classes.html).
+
+<!-- Gapminder? -->
+- **05/02**:
   - Indexação e seleção condicional
     [HTML](http://cursos.leg.ufpr.br/ce089/indexacao-selecao.html).
   - Programando com dados
     [HTML](http://cursos.leg.ufpr.br/ce089/programacao.html).
-<!-- Gapminder? -->
-- **05/02**:
-  - Técnicas de programação (*benchmarking*, *profiling*, *debugging*,
-      *error handling*)
-      [HTML](http://cursos.leg.ufpr.br/ce089/slides/01_tecnicas.html).
   - Literate programming
     [HTML](http://cursos.leg.ufpr.br/prr/capLitProg.html).
   - LaTeX, Markdown e Pandoc
     [HTML](http://cursos.leg.ufpr.br/prr/capMarkdown.html).
+  - Documentos dinâmicos
+    [HTML](http://cursos.leg.ufpr.br/prr/capDocDin.html).
 <!-- Alguns exemplos aqui: -->
 <!--     http://leg.ufpr.br/~fernandomayer/aulas/ce083/aulas.html  -->
 - **06/02**:
-  - Documentos dinâmicos
-    [HTML](http://cursos.leg.ufpr.br/prr/capDocDin.html).
+  - Técnicas de programação (*benchmarking*, *profiling*, *debugging*,
+    *error handling*)
+    [HTML](http://cursos.leg.ufpr.br/ce089/slides/01_tecnicas.html).
   - Pacotes e [renv](https://rstudio.github.io/renv/articles/renv.html).
 - **07/02**:
   - Apresentações.
