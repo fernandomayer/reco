@@ -28,6 +28,7 @@ source("setup_knitr.R")
     [HTML](http://cursos.leg.ufpr.br/ce089/indexacao-selecao.html).
   - Programando com dados
     [HTML](http://cursos.leg.ufpr.br/ce089/programacao.html).
+<!-- Gapminder? -->
 - **05/02**:
   - Técnicas de programação (*benchmarking*, *profiling*, *debugging*,
       *error handling*)
