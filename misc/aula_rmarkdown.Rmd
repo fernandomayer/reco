@@ -1,0 +1,102 @@
+---
+title: "Aula Rmarkdown"
+author: "Fernando Mayer"
+date: "`r Sys.Date()`"
+output:
+    pdf_document:
+        toc: TRUE
+bibliography: ref.bib
+csl: abntex2.csl
+geometry: margin=2.5cm
+papersize: a4
+---
+
+# Introdução
+
+O LaTeX é um conjunto de **macros** para o processador de textos TeX, utilizado amplamente para a produção de **textos matemáticos** e *científicos* devido à sua alta qualidade tipográfica. Entretanto, também é utilizado para produção
+de cartas pessoais, artigos e livros sobre assuntos diversos.
+
+Nova parágrafo.
+
+E outro.
+
+\begin{center}
+Texto centralizado.
+\end{center}
+
+O Word não possui nem $\sim$ 10\% da capacidade de editoração do LaTeX!
+
+# Metodologia
+
+## Dados
+
+Os dados foram coletados da seguinte forma:
+
+- Forma 1
+- Forma 2
+
+Os dados foram importados com:
+
+```{r}
+dados <- read.table("pib_gapminder.csv", header = TRUE,
+                    sep = ",", dec = ".")
+str(dados)
+```
+
+## Análise
+
+As análises foram:
+
+1. Análise 1
+   a. Sub analise 1
+   b. Sub analise 2
+2. Análise 2
+
+# Resultados
+
+A relação entre expvida e pibpercap pode ser vista na figura \ref{fig:plot}.
+
+```{r plot, out.width="0.8\\textwidth",fig.cap="Relação entre expVida e pibPercap",fig.pos="h"}
+plot(log(expVida) ~ log(pibPercap), data = dados)
+```
+
+# Discussão
+
+Veja a tabela \ref{tab:medias}.
+
+```{r, include=FALSE}
+tab <- aggregate(expVida ~ continente, data = dados, mean)
+tab
+```
+
+```{r, results="asis", echo=FALSE}
+library(xtable)
+print(xtable(tab, caption = "Média de expVida por continente",
+             label = "tab:medias", align = "ccc"),
+      include.rownames = FALSE,
+      caption.placement = "top")
+```
+
+A média de expVida é `r round(mean(dados$expVida),2)`.
+
+Uma equação $a+b-2c$ e outra
+
+\begin{equation}
+\label{eq:a}
+a+b-2c
+\end{equation}
+
+Veja a equação \ref{eq:a}.
+
+A densidade da normal é
+
+\begin{equation}
+f(x) = \frac{1}{\sigma \sqrt{2\pi}} \exp{ \left[ -\frac{1}{2}
+    \left( \frac{x - \mu}{\sigma} \right)^2 \right] }
+\end{equation}
+
+
+Segundo @Buckland2004 dsdsds. E outra coisa [@Durbin1997].
+
+# Referências
+
