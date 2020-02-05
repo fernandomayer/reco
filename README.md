@@ -1,6 +1,6 @@
 # RECO
 
-[![Build Status](https://travis-ci.org/fernandomayer/ce083.svg?branch=master)](https://travis-ci.org/fernandomayer/ce083)
+[![Build Status](https://travis-ci.org/fernandomayer/reco.svg?branch=master)](https://travis-ci.org/fernandomayer/reco)
 
 ## RECO - R para pesquisa científica
 
