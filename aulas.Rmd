@@ -24,21 +24,25 @@ source("setup_knitr.R")
 - **04/02**:
   - Funções, objetos e classes (Parte II)
     [HTML](http://cursos.leg.ufpr.br/ce089/objetos-classes.html).
-
-<!-- Gapminder? -->
+  - [Script](scripts/script_aula2.R) feito em aula.
 - **05/02**:
   - Indexação e seleção condicional
     [HTML](http://cursos.leg.ufpr.br/ce089/indexacao-selecao.html).
   - Programando com dados
     [HTML](http://cursos.leg.ufpr.br/ce089/programacao.html).
-  - Literate programming
-    [HTML](http://cursos.leg.ufpr.br/prr/capLitProg.html).
-  - LaTeX, Markdown e Pandoc
-    [HTML](http://cursos.leg.ufpr.br/prr/capMarkdown.html).
-  - Documentos dinâmicos
-    [HTML](http://cursos.leg.ufpr.br/prr/capDocDin.html).
-<!-- Alguns exemplos aqui: -->
-<!--     http://leg.ufpr.br/~fernandomayer/aulas/ce083/aulas.html  -->
+  - Pesquisa reproduzível
+    - Instalar os pacotes
+      - `install.packages(c("knitr", "rmarkdown", "bookdown", "xtable", "remotes"))`
+    - Literate programming
+      [HTML](http://cursos.leg.ufpr.br/prr/capLitProg.html).
+    - LaTeX, Markdown e Pandoc
+      [HTML](http://cursos.leg.ufpr.br/prr/capMarkdown.html).
+    - Documentos dinâmicos
+      [HTML](http://cursos.leg.ufpr.br/prr/capDocDin.html).
+    - Arquivo [ZIP](misc/docdin.zip) com diversos exemplos.
+    - Exemplo de documentos personalizados:
+      [legtheme](https://github.com/leg-ufpr/legtheme)
+      - `remotes::install_github("leg-ufpr/legtheme")`
 - **06/02**:
   - Técnicas de programação (*benchmarking*, *profiling*, *debugging*,
     *error handling*)
