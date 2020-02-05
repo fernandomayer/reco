@@ -24,7 +24,7 @@ source("setup_knitr.R")
 - **04/02**:
   - Funções, objetos e classes (Parte II)
     [HTML](http://cursos.leg.ufpr.br/ce089/objetos-classes.html).
-  - [Script](scripts/script_aula2.R) feito em aula.
+  - [Script](scripts/script_dia2.R) feito em aula.
 - **05/02**:
   - Indexação e seleção condicional
     [HTML](http://cursos.leg.ufpr.br/ce089/indexacao-selecao.html).
