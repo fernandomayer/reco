@@ -33,20 +33,32 @@ source("setup_knitr.R")
   - Pesquisa reproduzível
     - Instalar os pacotes
       - `install.packages(c("knitr", "rmarkdown", "bookdown", "xtable", "remotes"))`
+    - Arquivo [ZIP](misc/docdin.zip) com diversos exemplos.
+  - Para instalar o LaTeX:
+    - Opção 1: instalar o pacote do R
+  [tinytex](https://yihui.org/tinytex/)
+    ```{r, eval=FALSE}
+    install.packages("tinytex")
+    tinytex::install_tinytex()
+    ```
+    Siga as intruções adicionais que aparecerem na tela.
+    - Opção 2: instalar o [MikTeX](https://miktex.org/) para Windows.
+- **06/02**:
+  - Pesquisa reproduzível
     - Literate programming
       [HTML](http://cursos.leg.ufpr.br/prr/capLitProg.html).
     - LaTeX, Markdown e Pandoc
       [HTML](http://cursos.leg.ufpr.br/prr/capMarkdown.html).
     - Documentos dinâmicos
       [HTML](http://cursos.leg.ufpr.br/prr/capDocDin.html).
-    - Arquivo [ZIP](misc/docdin.zip) com diversos exemplos.
+    - Instalar o pacote
+      - `remotes::install_github("rstudio/rticles")`
     - Exemplo de documentos personalizados:
       [legtheme](https://github.com/leg-ufpr/legtheme)
       - `remotes::install_github("leg-ufpr/legtheme")`
-- **06/02**:
+  - Pacotes e [renv](https://rstudio.github.io/renv/articles/renv.html).
   - Técnicas de programação (*benchmarking*, *profiling*, *debugging*,
     *error handling*)
     [HTML](http://cursos.leg.ufpr.br/ce089/slides/01_tecnicas.html).
-  - Pacotes e [renv](https://rstudio.github.io/renv/articles/renv.html).
 - **07/02**:
-  - Apresentações.
+  - Elaboração de documentos dinâmicos.
