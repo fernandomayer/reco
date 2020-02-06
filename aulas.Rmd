@@ -49,6 +49,7 @@ source("setup_knitr.R")
       [HTML](http://cursos.leg.ufpr.br/prr/capLitProg.html).
     - LaTeX, Markdown e Pandoc
       [HTML](http://cursos.leg.ufpr.br/prr/capMarkdown.html).
+      - [Slides](http://leg.ufpr.br/~fernandomayer/aulas/ce083/misc/Introducao_ao_Latex_ESALQ-USP.pdf) sobre LaTeX.
     - Documentos dinâmicos
       [HTML](http://cursos.leg.ufpr.br/prr/capDocDin.html).
     - Instalar o pacote
@@ -57,6 +58,10 @@ source("setup_knitr.R")
       [legtheme](https://github.com/leg-ufpr/legtheme)
       - `remotes::install_github("leg-ufpr/legtheme")`
   - Pacotes e [renv](https://rstudio.github.io/renv/articles/renv.html).
+    - Instalar o pacote
+      - `remotes::install_github("rstudio/renv")`
+    - [Exemplo simples](misc/renv_basico.zip) com renv.
+    - [Exemplo mais elaborado](misc/mixed.zip) com renv.
   - Técnicas de programação (*benchmarking*, *profiling*, *debugging*,
     *error handling*)
     [HTML](http://cursos.leg.ufpr.br/ce089/slides/01_tecnicas.html).
