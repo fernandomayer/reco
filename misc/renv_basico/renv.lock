@@ -1,0 +1,32 @@
+{
+  "R": {
+    "Version": "3.6.2",
+    "Repositories": [
+      {
+        "Name": null,
+        "URL": "http://cran-r.c3sl.ufpr.br"
+      }
+    ]
+  },
+  "Packages": {
+    "mvtnorm": {
+      "Package": "mvtnorm",
+      "Version": "1.0-12",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "e5cf1b1d61a72646afbab28a20e9bd54"
+    },
+    "renv": {
+      "Package": "renv",
+      "Version": "0.9.2-32",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "renv",
+      "RemoteUsername": "rstudio",
+      "RemoteRef": "master",
+      "RemoteSha": "54d29a7fbf2ab771aacc87003e25920cb913f863",
+      "Hash": "c44fbab61fe82a28926dce48884b62c5"
+    }
+  }
+}
