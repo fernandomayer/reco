@@ -3,7 +3,7 @@
     "Version": "3.6.2",
     "Repositories": [
       {
-        "Name": null,
+        "Name": "CRAN",
         "URL": "http://cran-r.c3sl.ufpr.br"
       }
     ]
