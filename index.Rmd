@@ -22,8 +22,8 @@ source("setup_knitr.R")
   Laboratório de Estatística e Geoinformação)
 - **Horários e Locais:** Segunda a sexta, 14:00 - 18:00h, sala 421,
       Departamento de Botânica
-- **Avaliação**: apresentação de trabalhos (10-15 minutos) utilizando as
-  ferramentas apresentadas no curso
+- **Avaliação**: elaboração de um documento dinâmico (reproduzível)
+  contendo análises, tabelas e gráficos
 
 # Descrição
 
@@ -31,13 +31,14 @@ Estudos recentes mostram que cientistas passam cerca de 30% de seu tempo
 escrevendo códigos. No entanto, mais de 90% deles são primariamente
 auto-didatas, e portanto carecem de exposição à princípios básicos de
 programação e boas práticas de computação científica, o que facilitaria
-o desenvolvimento de suas pesquisas. Esse curso tem a intenção de
-preencher essa lacuna, por meio da exposição de conceitos fundamentais
-de programação na linguagem R. Também serão demonstradas algumas
-práticas em computação científica, com a intenção de otimizar o tempo
-despendido em programação. Além disso, algumas ferramentas disponíveis
-no R serão utilizadas com a finalidade de tornar uma pesquisa
-reproduzível.
+o desenvolvimento de suas pesquisas.
+
+Esse curso tem a intenção de preencher essa lacuna, por meio da
+exposição de conceitos fundamentais de programação na linguagem R.
+Também serão demonstradas algumas práticas em computação científica, com
+a intenção de otimizar o tempo despendido em programação. Além disso,
+algumas ferramentas disponíveis no R serão utilizadas com a finalidade
+de tornar uma pesquisa reproduzível.
 
 O público alvo do curso são alunos de pós-graduação que já utilizam o R
 (em qualquer nível) em suas pesquisas, mas desejam aprofundar seu
