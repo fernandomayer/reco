@@ -32,6 +32,7 @@ source("setup_knitr.R")
     [HTML](http://cursos.leg.ufpr.br/ce089/programacao.html).
   - Ver o [script_gapminder.R](scripts/script_gapminder.R) para exemplos de
     uso das funções da família `*apply()`.
+  - [Script](scripts/script_dia3.R) feito em aula.
   - Pesquisa reproduzível
     - Instalar os pacotes
       - `install.packages(c("knitr", "rmarkdown", "bookdown", "xtable", "remotes"))`
@@ -60,12 +61,17 @@ source("setup_knitr.R")
       [legtheme](https://github.com/leg-ufpr/legtheme)
       - `remotes::install_github("leg-ufpr/legtheme")`
   - Pacotes e [renv](https://rstudio.github.io/renv/articles/renv.html).
+    - Ver slides de Kevin Ushey: [renv: Project Environments for
+    R](https://kevinushey-2020-rstudio-conf.netlify.com/slides.html).
     - Instalar o pacote
       - `remotes::install_github("rstudio/renv")`
     - [Exemplo simples](misc/renv_basico.zip) com renv.
     - [Exemplo mais elaborado](misc/mixed.zip) com renv.
+    - Ver este [script](scripts/script_renv.R) para o *workflow* do
+      pacote.
   - Técnicas de programação (*benchmarking*, *profiling*, *debugging*,
     *error handling*)
     [HTML](http://cursos.leg.ufpr.br/ce089/slides/01_tecnicas.html).
+  - [Script](scripts/script_dia4.R) feito em aula.
 - **07/02**:
   - Elaboração de documentos dinâmicos.
