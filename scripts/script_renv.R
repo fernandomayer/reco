@@ -3,7 +3,7 @@
 ## https://rstudio.github.io/renv/articles/renv.html
 ## https://rstudio.github.io/renv/articles/collaborating.html
 
-## Para instalar curl no Windown
+## Para instalar curl no Windows
 renv::equip()
 
 ## Cria projeto
@@ -20,3 +20,8 @@ renv::snapshot()
 renv::restore()
 ## para restaurar o projeto (instalando todos os pacotes nas versões
 ## específicas)
+
+## Depois de instalar outros pacotes, atualizar o projeto, etc, a
+## qualquer momento use
+renv::snapshot()
+## para atualizar a lista de pacotes específicos.
